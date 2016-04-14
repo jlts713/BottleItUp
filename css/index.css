@@ -1,0 +1,108 @@
+body{
+	background-image: url("https://m101.nthu.edu.tw/~s101080011/loginbg.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100% 400%
+}.link{	font-family: 'Ubuntu', sans-serif;}
+#login{
+	position:absolute; 
+	left:70%; 
+	top:10%; 
+	font-size:25pt; 
+	color:white; 
+	font-family: 'Ubuntu', sans-serif;
+}
+#new{
+	position:absolute;
+	left:70%; 
+	top:110%; 
+	font-size:25pt; 
+	color:white; 
+	font-family: 'Poiret One', cursive;
+}
+#discre{
+	position:absolute; 
+	left:70%; 
+	top:210%; 
+	font-size:25pt; 
+	color:white; 
+	font-family: 'Ubuntu', sans-serif;
+}
+#team{
+	position:absolute; 
+	left:70%; 
+	top:310%; 
+	font-size:25pt; 
+	color:white; 
+	font-family: 'Ubuntu', sans-serif;
+}
+#logoL{
+	position:absolute; 
+	right:15%; 
+	bottom:0%; 
+}
+#logoR{
+	position:absolute; 
+	right:15%; 
+	bottom:-100%
+}
+#logoA{
+	position:absolute; 
+	right:15%; 
+	bottom:-200%
+}
+#logoC{
+	position:absolute; 
+	right:15%; 
+	bottom:-300%
+}
+#anchorL{
+	position:absolute; 
+	right:1%; 
+	bottom:5%; 
+	font-size:18pt; 
+	text-align:right;
+}
+#anchorR{
+	position:absolute; 
+	right:1%; 
+	bottom:-95%; 
+	font-size:18pt; 
+	text-align:right;
+}
+#anchorA{
+	position:absolute; 
+	right:1%; 
+	bottom:-195%; 
+	font-size:18pt; 
+	text-align:right;
+}
+#anchorC{
+	position:absolute; 
+	right:1%; 
+	bottom:-295%; 
+	font-size:18pt; 
+	text-align:right;
+}
+	
+a:link{
+	color:#878787;
+}
+a:visited{
+	color:#878787;
+}
+a:hover{
+	color:#878787;
+}
+.btn{
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	border-radius:8px;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14pt;
+	font-family:Ubuntu;
+	padding:2px 10px;
+}
+.btn:hover{background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%)}
+.btn:active{position:relative; top:1px}
+#aboutInfo{	background:rgba(255,255,255,0.5);	position:absolute;	top:220%;	left:10%;	width:45%;	height:55%;	font-family:'Ubuntu'}.editor{	color:white;	font-weight:bold;	font-family: '微軟正黑體', 'Ubuntu', sans-serif;}

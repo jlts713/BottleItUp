@@ -1,0 +1,135 @@
+body{
+
+}
+#map_canvas{
+	 position:absolute; 
+	 top:0px; 
+	 right:0px;
+}
+#writer{
+	position: absolute;  
+	width: 60%; 
+	height: 80%;
+	top: 10%;
+	left: 10%;	
+	background-color:rgba(255,255,255,0.5);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.topic1{ position:absolute; top:7%; left:32%; font-size:50px; color:white; font-family: 'Poiret One', cursive;}
+.topic2{ position:absolute; top:18%; left:25%; font-size:25px;line-height: 40px;}
+.textarea{  position:absolute; top:24%; left:25%; height:20%; width:50%;font-size:15px;margin: 5px 0px;}
+.topic3{ position:absolute; top:47%; left:25%; font-size:25px;line-height: 40px;}
+.radio{ position:absolute; top:55%; left:24%; font-size:25px;}
+.textbox{  position:absolute; top:54%; left:27%; height:6%; width:33%; font-size:15px;}
+#Geo{ position:absolute; top:54%; left:62%;}
+.topic4{ position:absolute; top:60%; left:38%; font-size:15px;line-height: 40px;}
+.radio2{ position:absolute; top:65%; left:24%; font-size:20px;}
+.topic5{ position:absolute; top:65%; left:25%; font-size:25px;line-height: 40px;}
+.topic6{ position:absolute; top:75%; left:25%; font-size:25px;line-height: 40px;}
+.topic7{ position:absolute; top:82%; left:25%; font-size:20px;line-height: 40px;}
+.boxes{ position:relative; width:10%;}
+#throw{ position:absolute; top:82%; left:80%;}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:6px;
+	border:1px solid #54381e;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+.btn:hover {	
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%); 
+	background-color:#634b30
+}
+.btn:active {
+	position:relative; 
+	top:1px
+}
+
+
+#tt{
+	position:absolute;
+	bottom:0%;
+	padding:0px;
+	margin:0px;
+	width:100%
+}
+
+#actionBar{
+	list-style:none;
+	background:url("https://m101.nthu.edu.tw/~s101080011/actionB.png"); 
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+	position: absolute; 
+	left: 0px; 
+	bottom: 0px;
+	width:100%;
+	height:100px
+}
+.actionItem{
+	position:absolute;
+	bottom:0%;
+	left:0%; 
+	margin:0px;
+	width:100%;
+}
+#action{
+	position:absolute; 
+	bottom:0%;
+	left:0%;
+	height:70px;
+}
+#item{
+	float:left; 
+	list-style:none;
+}
+.actionItem li ul{
+	display:none; 
+	list-style:none;
+}
+.actionItem li:hover > ul{
+	display:block;
+}
+#detail:hover{
+	display:block;
+}
+.toMap{
+	position:relative; 
+	bottom:0%;
+	left:3%;
+	height:100px; 
+	width:100px;
+}
+.toFollow{
+	position:relative;
+	bottom:0%;
+	left:33%;
+	height:100px; 
+	width:100px;
+}
+.toPerson{
+	position:relative;
+	bottom:0%; 
+	left:33%;
+	height:100px; 
+	width:100px;
+}
+.leave{
+	position:relative;
+	bottom:0%; 
+	left:63%;
+	height:100px; 
+	width:100px;
+}
+.toMap:hover{content:url('https://m101.nthu.edu.tw/~s101080011/toMapH.png');}
+.toFollow:hover{content:url('https://m101.nthu.edu.tw/~s101080011/toFollowH.png');}
+.toPerson:hover{content:url('https://m101.nthu.edu.tw/~s101080011/toPersonH.png');}
+.leave:hover{content:url('https://m101.nthu.edu.tw/~s101080011/leaveH.png');}
